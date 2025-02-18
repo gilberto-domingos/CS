@@ -24,6 +24,7 @@ out/
 *.sqlite3
 *.db
 
+
 # 🔹 Pacotes do NuGet
 *.nupkg
 project.lock.json
@@ -75,6 +76,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.py
 
 # 🔹 Dependências e pacotes do Python
 Pipfile
