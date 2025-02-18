@@ -1,0 +1,130 @@
+# 🔹 Diretórios do Build
+bin/
+obj/
+out/
+
+# 🔹 Configurações do Visual Studio e VS Code
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 🔹 Logs e Arquivos Temporários
+*.log
+*.vs/
+*.cache
+*.pdb
+*.pidb
+*.mdb
+*.ilk
+*.aps
+*.sdf
+*.sqlite
+*.sqlite3
+*.db
+
+# 🔹 Pacotes do NuGet
+*.nupkg
+project.lock.json
+packages/
+.nuget/
+
+# 🔹 Configurações Locais do Sistema
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# 🔹 Chaves e Certificados
+appsettings.json
+appsettings.Development.json
+secrets.json
+*.key
+*.pfx
+*.cer
+
+# 🔹 Docker e Containers
+docker-compose.override.yml
+**/Dockerfile
+.env
+.envrc
+node_modules/
+
+# 🔹 Arquivos gerados pelo Rider (JetBrains)
+.idea/
+*.iml
+*.ipr
+*.iws
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/libraries/
+
+# python
+
+# 🔹 Diretórios de ambientes virtuais
+venv/
+env/
+.venv/
+.pyenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Dependências e pacotes do Python
+Pipfile
+Pipfile.lock
+poetry.lock
+*.whl
+*.egg-info/
+dist/
+build/
+
+# 🔹 Arquivos de logs e depuração
+*.log
+*.out
+*.err
+
+# 🔹 Configurações do VS Code
+.vscode/
+.settings/
+*.code-workspace
+
+# 🔹 Arquivos de testes e cobertura
+.coverage
+.tox/
+.nox/
+htmlcov/
+
+# 🔹 Arquivos de cache e temporários
+*.swp
+*.swo
+.DS_Store
+*.bak
+*.tmp
+
+# 🔹 Arquivos de configuração de credenciais
+.env
+.envrc
+secrets.json
+config.json
+*.pem
+*.crt
+*.key
+
+# 🔹 Arquivos gerados por Docker
+**/Dockerfile
+docker-compose.override.yml
+
+# 🔹 Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 PyCharm (JetBrains)
+.idea/
+*.iml
+
