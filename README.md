@@ -1,1 +1,1 @@
-# Curso de C# - 'Curso em andamento programa Jovem Programador'
+# Curso de C# - Curso em andamento, programa 'Jovem Programador'

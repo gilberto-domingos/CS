@@ -1,132 +1,105 @@
-# 🔹 Diretórios do Build
+# ===== C# .NET =====
+## Ignore arquivos binários e de build
 bin/
 obj/
 out/
+*.exe
+*.dll
+*.pdb
+*.nuspec
+*.cache
+*.log
+*.zip
+*.tar.gz
+random_number.py
 
-# 🔹 Configurações do Visual Studio e VS Code
+## Ignore configurações locais do Visual Studio
 .vscode/
+.idea/
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
+*.sln.cache
+*.vscode/
+*.ncb
+*.mode1v3
+*.mode2v3
+*.vcxproj.user
 
-# 🔹 Logs e Arquivos Temporários
-*.log
+## Ignore pacotes e dependências
 *.vs/
-*.cache
-*.pdb
-*.pidb
-*.mdb
-*.ilk
-*.aps
-*.sdf
-*.sqlite
-*.sqlite3
-*.db
-
-
-# 🔹 Pacotes do NuGet
-*.nupkg
-project.lock.json
 packages/
-.nuget/
+node_modules/
+!**/bin/
+!**/obj/
 
-# 🔹 Configurações Locais do Sistema
-Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+## Ignore arquivos temporários
+*.tmp
 *.bak
 *.swp
 *.swo
-*.DS_Store
 
-# 🔹 Chaves e Certificados
+## Ignore secrets e arquivos de configuração sensíveis
+secrets.json
 appsettings.json
 appsettings.Development.json
-secrets.json
-*.key
-*.pfx
-*.cer
-
-# 🔹 Docker e Containers
-docker-compose.override.yml
-**/Dockerfile
 .env
-.envrc
+.env.local
+.env.development
+.env.production
+.env.test
+
+## Ignore arquivos gerados pelo Docker
+docker-compose.override.yml
+docker-compose.override.json
+docker-compose.debug.yml
+docker-compose.debug.json
+cs.net/.vs/
+
+# ===== React =====
+## Dependências
 node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# 🔹 Arquivos gerados pelo Rider (JetBrains)
-.idea/
-*.iml
-*.ipr
-*.iws
-/.idea/workspace.xml
-/.idea/tasks.xml
-/.idea/gradle.xml
-/.idea/libraries/
-
-# python
-
-# 🔹 Diretórios de ambientes virtuais
-venv/
-env/
-.venv/
-.pyenv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.py
-
-# 🔹 Dependências e pacotes do Python
-Pipfile
-Pipfile.lock
-poetry.lock
-*.whl
-*.egg-info/
-dist/
+## Arquivos de build
 build/
-
-# 🔹 Arquivos de logs e depuração
+dist/
+.cache/
 *.log
-*.out
-*.err
+*.gz
 
-# 🔹 Configurações do VS Code
+## Configurações do editor
 .vscode/
-.settings/
-*.code-workspace
-
-# 🔹 Arquivos de testes e cobertura
-.coverage
-.tox/
-.nox/
-htmlcov/
-
-# 🔹 Arquivos de cache e temporários
-*.swp
-*.swo
-.DS_Store
-*.bak
-*.tmp
-
-# 🔹 Arquivos de configuração de credenciais
-.env
-.envrc
-secrets.json
-config.json
-*.pem
-*.crt
-*.key
-
-# 🔹 Arquivos gerados por Docker
-**/Dockerfile
-docker-compose.override.yml
-
-# 🔹 Arquivos do Jupyter Notebook
-.ipynb_checkpoints/
-
-# 🔹 PyCharm (JetBrains)
 .idea/
-*.iml
 
+## Coverage e testes
+coverage/
+.nyc_output/
+jest-cache/
+jest/
+
+# ===== SQL Server =====
+## Arquivos do banco de dados local
+*.mdf
+*.ldf
+*.bak
+*.sqlproj.user
+*.dbproj.suo
+
+# ===== Docker =====
+## Ignore volumes, caches e builds locais
+**/docker-compose.override.yml
+**/docker-compose.override.json
+**/docker-compose.debug.yml
+**/docker-compose.debug.json
+**/.dockerignore
+cs.net/.vs/
+
+# ===== Outros =====
+# Arquivos de log e temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  cs.net:
+    container_name: cs.net
+    build:
+      context: .
+      dockerfile: Dockerfile.net
+    ports:
+      - "5000:5000"
+    depends_on:
+      - cs.sql
+      - rabbitmq
+    networks:
+      - app_network
+    env_file:
+      - .env
+    environment:
+      - ConnectionStrings__DefaultConnection=${CONNECTION_STRING}
+      - RABBITMQ_HOST=${RABBITMQ_HOST}
+
+  cs.react:
+    container_name: cs.react
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.react
+    ports:
+      - "3000:3000"
+    depends_on:
+      - cs.net
+    networks:
+      - app_network
+
+  cs.sql:
+    container_name: cs.sql
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    env_file:
+      - .env
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD}
+      ACCEPT_EULA: "Y"
+    networks:
+      - app_network
+    volumes:
+      - sql_data:/var/opt/mssql
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    env_file:
+      - .env
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
+volumes:
+  sql_data:
