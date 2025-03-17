@@ -1,0 +1,15 @@
+/home/jr/cs.net/NetStudy/bin/Debug/net9.0/NetStudy
+/home/jr/cs.net/NetStudy/bin/Debug/net9.0/NetStudy.deps.json
+/home/jr/cs.net/NetStudy/bin/Debug/net9.0/NetStudy.runtimeconfig.json
+/home/jr/cs.net/NetStudy/bin/Debug/net9.0/NetStudy.dll
+/home/jr/cs.net/NetStudy/bin/Debug/net9.0/NetStudy.pdb
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.GeneratedMSBuildEditorConfig.editorconfig
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.AssemblyInfoInputs.cache
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.AssemblyInfo.cs
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.csproj.CoreCompileInputs.cache
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.sourcelink.json
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.dll
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/refint/NetStudy.dll
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.pdb
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/NetStudy.genruntimeconfig.cache
+/home/jr/cs.net/NetStudy/obj/Debug/net9.0/ref/NetStudy.dll
