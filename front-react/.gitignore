@@ -12,6 +12,8 @@ out/
 *.zip
 *.tar.gz
 random_number.py
+.venv
+.env
 
 ## Ignore configurações locais do Visual Studio
 .vscode/
