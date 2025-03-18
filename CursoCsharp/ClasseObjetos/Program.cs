@@ -1,4 +1,4 @@
-﻿namespace ProgOrientObjeto;
+﻿namespace ClasseObjetos;
 
 class Program
 {
@@ -22,7 +22,5 @@ class Program
         camisa.Preco = 89.00M; 
         camisa.ImprimirItens();
     }
-    
-    
-    
+
 }

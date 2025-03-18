@@ -1,4 +1,4 @@
-namespace ProgOrientObjeto;
+namespace ClasseObjetos;
 
 public class CarrinhoItem
 {
