@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jr/cs.net/CsharpCursoPOO/ClasseInstObj.csproj",
-      "projectName": "ClasseInstObj",
-      "projectPath": "/home/jr/cs.net/CsharpCursoPOO/ClasseInstObj.csproj",
+      "projectUniqueName": "/home/jr/cs.net/CursoCsharp/POO.csproj",
+      "projectName": "POO",
+      "projectPath": "/home/jr/cs.net/CursoCsharp/POO.csproj",
       "packagesPath": "/home/jr/.nuget/packages/",
-      "outputPath": "/home/jr/cs.net/CsharpCursoPOO/obj/",
+      "outputPath": "/home/jr/cs.net/CursoCsharp/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
