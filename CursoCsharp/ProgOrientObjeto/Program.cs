@@ -1,4 +1,4 @@
-﻿namespace POO;
+﻿namespace ProgOrientObjeto;
 
 class Program
 {

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jr/cs.net/CursoCsharp/POO.csproj",
-      "projectName": "POO",
-      "projectPath": "/home/jr/cs.net/CursoCsharp/POO.csproj",
+      "projectUniqueName": "/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/ProgOrientObjeto.csproj",
+      "projectName": "ProgOrientObjeto",
+      "projectPath": "/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/ProgOrientObjeto.csproj",
       "packagesPath": "/home/jr/.nuget/packages/",
-      "outputPath": "/home/jr/cs.net/CursoCsharp/obj/",
+      "outputPath": "/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [

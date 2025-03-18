@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO", "POO.csproj", "{38299140-3FDE-4E55-BB18-9352EAB356A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgOrientObjeto", "ProgOrientObjeto\ProgOrientObjeto.csproj", "{B5CDBC58-D2B8-4AD5-B153-1F97C6815058}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{38299140-3FDE-4E55-BB18-9352EAB356A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38299140-3FDE-4E55-BB18-9352EAB356A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38299140-3FDE-4E55-BB18-9352EAB356A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38299140-3FDE-4E55-BB18-9352EAB356A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CDBC58-D2B8-4AD5-B153-1F97C6815058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CDBC58-D2B8-4AD5-B153-1F97C6815058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CDBC58-D2B8-4AD5-B153-1F97C6815058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CDBC58-D2B8-4AD5-B153-1F97C6815058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
