@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgOrientObjeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9df72f31b5f141a64f09d71befed2eadd8f8ee98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632baa22781c99e1dd904ce3e318df905b12e334")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProgOrientObjeto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgOrientObjeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

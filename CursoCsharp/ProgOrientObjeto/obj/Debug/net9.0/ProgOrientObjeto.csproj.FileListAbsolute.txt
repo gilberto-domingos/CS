@@ -1,0 +1,15 @@
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.AssemblyInfoInputs.cache
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.AssemblyInfo.cs
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.csproj.CoreCompileInputs.cache
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.sourcelink.json
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/bin/Debug/net9.0/ProgOrientObjeto
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/bin/Debug/net9.0/ProgOrientObjeto.deps.json
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/bin/Debug/net9.0/ProgOrientObjeto.runtimeconfig.json
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/bin/Debug/net9.0/ProgOrientObjeto.dll
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/bin/Debug/net9.0/ProgOrientObjeto.pdb
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.dll
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/refint/ProgOrientObjeto.dll
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.pdb
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ProgOrientObjeto.genruntimeconfig.cache
+/home/jr/cs.net/CursoCsharp/ProgOrientObjeto/obj/Debug/net9.0/ref/ProgOrientObjeto.dll
