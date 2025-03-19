@@ -6,6 +6,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        CarrinhoItem brinquedo = new CarrinhoItem();
+        brinquedo.Nome = "AquaMan";
+        brinquedo.Quantidade = 4;
+        brinquedo.Preco = 250.85M;
+        brinquedo.ImprimirItens();
+        
         CarrinhoItem sapato = new CarrinhoItem();
         sapato.Nome = "Sapato Social";
         sapato.Quantidade = 2;
