@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jr/cs.net/CursoCsharp/Metodos/Metodos.csproj",
-      "projectName": "Metodos",
-      "projectPath": "/home/jr/cs.net/CursoCsharp/Metodos/Metodos.csproj",
+      "projectUniqueName": "/home/jr/cs.net/Csharp/ProgOrientObjetos/Encapsulamento/Encapsulamento.csproj",
+      "projectName": "Encapsulamento",
+      "projectPath": "/home/jr/cs.net/Csharp/ProgOrientObjetos/Encapsulamento/Encapsulamento.csproj",
       "packagesPath": "/home/jr/.nuget/packages/",
-      "outputPath": "/home/jr/cs.net/CursoCsharp/Metodos/obj/",
+      "outputPath": "/home/jr/cs.net/Csharp/ProgOrientObjetos/Encapsulamento/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
