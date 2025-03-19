@@ -1,9 +1,18 @@
-﻿namespace Encapsulamento;
+﻿using System.Xml.Serialization;
+
+namespace Encapsulamento;
 
 class Program
 {
     static void Main(string[] args)
     {
+        CarrinhoItem sapato = new CarrinhoItem();
+        sapato.Nome = "Sapato Social";
+        sapato.Quantidade = 2;
+        sapato.Preco = 350.99M;
+        sapato.ImprimirItens();
+        
+        
         CarrinhoItem tenis = new CarrinhoItem();
         tenis.Nome = "Tenis de corrida";
         tenis.Quantidade = 3;
