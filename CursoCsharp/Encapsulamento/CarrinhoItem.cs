@@ -1,4 +1,4 @@
-namespace ProgOrientObjetos;
+namespace Encapsulamento;
 //***** POO - Encapsulamento *****//
 public class CarrinhoItem
 {
@@ -16,7 +16,7 @@ public class CarrinhoItem
     }
     
     /* publicos
-    public string nome;
-    public int quantidade;
-    public decimal preco; */
+    public string nome { get; set; }
+    public int quantidade { get; set; }
+    public decimal preco { get; set; } */
 }

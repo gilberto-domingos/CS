@@ -1,4 +1,4 @@
-﻿namespace ProgOrientObjetos;
+﻿namespace Encapsulamento;
 
 class Program
 {
