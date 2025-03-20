@@ -1,4 +1,4 @@
-# Curso > C# .Net React - SENAC 'Jovem Programador' - Duração: 9 Meses
+# Curso > C# .Net React - SENAC 'Jovem Programador' - Duração: 9 Meses - 440horas
 
 - => Práticas do curso
 - Logica de Programação
