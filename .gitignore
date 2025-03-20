@@ -14,6 +14,7 @@ out/
 random_number.py
 .venv
 .env
+.config
 
 ## Ignore configurações locais do Visual Studio
 .vscode/
