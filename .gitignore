@@ -11,30 +11,31 @@ out/
 *.log
 *.zip
 *.tar.gz
-random_number.py
-.venv
-.env
-.config
 
-## Ignore configurações locais do Visual Studio
+## Privates
+.config/
+.venv/
+react/README-install.md
+
+
+## Ignore configurações locais do Visual Studio e Rider
+.vs/
 .vscode/
 .idea/
+.Rider/
+**/.idea/
 *.suo
 *.user
 *.userosscache
 *.sln.cache
-*.vscode/
 *.ncb
 *.mode1v3
 *.mode2v3
 *.vcxproj.user
+*.sln.iml  # Rider solution metadata
 
 ## Ignore pacotes e dependências
-*.vs/
 packages/
-node_modules/
-!**/bin/
-!**/obj/
 
 ## Ignore arquivos temporários
 *.tmp
@@ -52,12 +53,9 @@ appsettings.Development.json
 .env.production
 .env.test
 
-## Ignore arquivos gerados pelo Docker
-docker-compose.override.yml
-docker-compose.override.json
-docker-compose.debug.yml
-docker-compose.debug.json
-cs.net/.vs/
+## Dependências do .NET
+project.lock.json
+global.json
 
 # ===== React =====
 ## Dependências
@@ -65,44 +63,32 @@ node_modules/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+## Build e cache
 build/
 dist/
 .cache/
 coverage/
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.idea/
-.DS_Store
-.eslintcache
-.parcel-cache/
 .next/
 out/
 .vercel/
 netlify/
 
-## Arquivos de build
-build/
-dist/
-.cache/
-*.log
-*.gz
-
 ## Configurações do editor
 .vscode/
 .idea/
+.Rider/
 
 ## Coverage e testes
-coverage/
 .nyc_output/
 jest-cache/
 jest/
+
+## Storybook
+storybook-static/
+
+## Material UI Icons (se baixados localmente)
+public/material-icons/
 
 # ===== SQL Server =====
 ## Arquivos do banco de dados local
@@ -119,7 +105,12 @@ jest/
 **/docker-compose.debug.yml
 **/docker-compose.debug.json
 **/.dockerignore
-cs.net/.vs/
+.docker/
+docker-compose.yml # Se você tiver um arquivo principal de docker-compose
+
+# ===== RabbitMQ =====
+## Ignore arquivos temporários ou logs do RabbitMQ
+.rabbitmq/
 
 # ===== Outros =====
 # Arquivos de log e temporários
@@ -127,3 +118,4 @@ cs.net/.vs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
