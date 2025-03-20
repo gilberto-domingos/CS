@@ -4,7 +4,8 @@
 - Logica de Programação
 - POO - Programação Orientada a Objetos.
 
-- => Desenvolvimentos 'extras' meus com Docker(containers/comunicação entre containers) e RabbitMq(Message Broker) e Microserviços.
+- => Desenvolvimentos meus 'extras'  
+- Docker(containers/comunicação entre containers) e RabbitMq(Message Broker) e Microserviços.
 - Uso de Expressões Lambadas
 
 - => Front-end React + TypeScript, usando as build tools mais modernas e eficientes em vite e yarn. 
