@@ -1,7 +1,0 @@
-{
-  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
-  "plugins": ["react", "react-hooks"],
-  "rules": {
-    "react/prop-types": "off"
-  }
-}
