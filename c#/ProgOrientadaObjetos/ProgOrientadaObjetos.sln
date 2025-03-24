@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exerc.IMC", "Exerc.IMC\Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "This", "This\This.csproj", "{E8A4BE61-B450-4CB1-BD6F-0796DD4405E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{E8A4BE61-B450-4CB1-BD6F-0796DD4405E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8A4BE61-B450-4CB1-BD6F-0796DD4405E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8A4BE61-B450-4CB1-BD6F-0796DD4405E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
