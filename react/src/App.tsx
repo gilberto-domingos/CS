@@ -1,14 +1,13 @@
-import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
-import { LightTheme } from "./shared/themes";
 import { AppRoutes } from "./routes/routes";
+import { AppThemeProvider } from "./shared/contexts";
 
 export function App() {
   return (
-    <ThemeProvider theme={LightTheme}>
+    <AppThemeProvider>
       <CssBaseline />
       <AppRoutes />
-    </ThemeProvider>
+    </AppThemeProvider>
   );
 }
 
