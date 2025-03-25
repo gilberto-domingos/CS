@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 import Buttons from "../shared/components/Buttons";
+import { useAppThemeContext } from "../shared/contexts";
+import "../styles/home.css";
 
 export const Home = () => {
+  const { toggleTheme } = useAppThemeContext();
+
   return (
-    <div>
+    <div className="home-container">
       <h1>Bem-vindo</h1>
+
       <Buttons
         label="Botão Primário"
         variant="primary"
@@ -21,9 +26,17 @@ export const Home = () => {
         onClick={() => alert("Erro!")}
       />
 
-      <div style={{ marginTop: "20px" }}>
-        <Link to="/home2">Ir para Home2</Link>
+      <div className="home-button-container">
+        <Buttons
+          label="Alternar Tema"
+          variant="secondary"
+          onClick={toggleTheme}
+        />
       </div>
+
+      <Link to="/home2" className="home-link">
+        Ir para Home2
+      </Link>
     </div>
   );
 };

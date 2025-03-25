@@ -1,0 +1,21 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-button-container {
+  margin-top: 20px;
+}
+
+.home-link {
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.home-link:hover {
+  color: #0056b3;
+}
