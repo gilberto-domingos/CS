@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "This", "This\This.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{1230B758-EC83-41B2-AB1E-FE7E6D837070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBBFA953-A210-4888-ADB9-C5B6F52BDDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1230B758-EC83-41B2-AB1E-FE7E6D837070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1230B758-EC83-41B2-AB1E-FE7E6D837070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1230B758-EC83-41B2-AB1E-FE7E6D837070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1230B758-EC83-41B2-AB1E-FE7E6D837070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
