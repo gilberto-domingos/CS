@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfism
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estatico", "Estatico\Estatico.csproj", "{BBD4E510-6D37-4CE6-9026-54D3012E146C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracao", "Abstracao\Abstracao.csproj", "{A65B119C-9541-4357-9BA2-22E6B809EE11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{BBD4E510-6D37-4CE6-9026-54D3012E146C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD4E510-6D37-4CE6-9026-54D3012E146C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD4E510-6D37-4CE6-9026-54D3012E146C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
