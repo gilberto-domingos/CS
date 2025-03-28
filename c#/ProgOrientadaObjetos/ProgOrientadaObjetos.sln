@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estatico", "Estatico\Estati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstracao", "Abstracao\Abstracao.csproj", "{A65B119C-9541-4357-9BA2-22E6B809EE11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{A8039B99-E783-4E2D-967F-C5BA76D267A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A65B119C-9541-4357-9BA2-22E6B809EE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8039B99-E783-4E2D-967F-C5BA76D267A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8039B99-E783-4E2D-967F-C5BA76D267A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8039B99-E783-4E2D-967F-C5BA76D267A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8039B99-E783-4E2D-967F-C5BA76D267A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
