@@ -14,9 +14,4 @@ public class CarrinhoItem
     {
         Console.WriteLine($"Nome: {nome}, Quantidade: {quantidade}, Valor: {preco}");
     }
-    
-    /* publicos
-    public string nome { get; set; }
-    public int quantidade { get; set; }
-    public decimal preco { get; set; } */
 }
