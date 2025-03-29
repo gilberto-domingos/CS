@@ -10,6 +10,22 @@
 - Docker(containers/comunicação entre containers) e RabbitMq(Message Broker) e Microserviços.
 - Uso de Expressões Lambadas.
 
+- ### ==> Padrões de Projetos (Design Patterns) 
+- Factory Method -> (Criacional : Oferece uma interface para criar objetos em uma Super Classe)
+- Decorator Pattern
+- Facade Pattern
+- Abstract Factory
+- Observer Pattern
+- Adapter Pattern
+- Builder Pattern
+- DDD
+- CQRS
+- Event Sourcing
+- Aplicando em um cenário real
+
+
+
+
 # Front-end => React + TypeScript
 - React @19.0.0
 - Vite @6.2.0
