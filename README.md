@@ -12,12 +12,13 @@
 - Aplicações em cenário real
 - ### ==> Padrões de Projetos (Design Patterns) 
 - Factory Method -> (Criacional : Oferece uma interface para criar objetos, permitindo que subclasses decidam qual classe concreta será instanciada, usar quando você não quer depender diretamente de classes concretas.)
-- Decorator Pattern -> (Estrutural : Extender funcionalidades de um objeto sem modificar seu código-fonte original, usar quando precisa seguir o princípio aberto/fechado (Open/Closed Principle - SOLID)
-- Facade Pattern
+- Decorator Pattern -> (Estrutural: Extender funcionalidades de um objeto sem modificar seu código-fonte original, usar quando precisa seguir o princípio aberto/fechado (Open/Closed Principle - SOLID)
+- Facade Pattern -> (Estrutural: Fornece uma interface simplificada para um conjunto complexo de subsistemas, expondo apenas uma API simples para os clientes.
 - Abstract Factory
 - Observer Pattern
 - Adapter Pattern
 - Builder Pattern
+- S.O.L.I.D
 - Testes Unitários
 - Teste de Integração
 - Teste automatizado
