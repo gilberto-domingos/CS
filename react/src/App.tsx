@@ -1,12 +1,15 @@
 import { CssBaseline } from "@mui/material";
 import { AppRoutes } from "./routes/routes";
 import { AppThemeProvider } from "./shared/contexts";
+import { SideMenu } from "./shared/components/side-menu";
 
 export function App() {
   return (
     <AppThemeProvider>
       <CssBaseline />
-      <AppRoutes />
+      <SideMenu>
+        <AppRoutes />
+      </SideMenu>
     </AppThemeProvider>
   );
 }
