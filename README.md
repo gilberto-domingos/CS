@@ -38,5 +38,6 @@
 - Material UI @6.4.8
 - ### Conteúdo :
 - Implementação de temas : 'Light' | 'Dark'
-- Botão (alternar temas) Toggle Theme
+- Botão alternar temas (Toggle Theme)
+- Menu lateral (side-menu)
 
