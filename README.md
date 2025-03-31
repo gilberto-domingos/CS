@@ -15,7 +15,7 @@
 - Decorator Pattern -> (Estrutural: Extender funcionalidades de um objeto sem modificar seu código-fonte original, usar quando precisa seguir o princípio aberto/fechado (Open/Closed Principle - SOLID)
 - Facade Pattern -> (Estrutural: Fornece uma interface simplificada para um conjunto complexo de subsistemas, expondo apenas uma API simples para os clientes.
 - Abstract Factory -> (Criacional - fornecer uma interface para criar famílias de objetos relacionados sem especificar suas classes concretas,  uma camada de abstração para a criação de objetos, seguindo o princípio Aberto/Fechado do SOLID.)
-- Observer Pattern
+- Observer Pattern -> (Comportamental - define uma dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os seus observadores são notificados automaticamente. Objetivo criar um sistema de notificação automática.)
 - Adapter Pattern
 - Builder Pattern
 - S.O.L.I.D
