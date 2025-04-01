@@ -19,6 +19,8 @@
 - Adapter Pattern
 - Builder Pattern
 - S.O.L.I.D
+- Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
+- Desenvolvimento API RESTfull princípio (Representational State Transfer) -> cliente (frontend) e o servidor (backend) são separados e se comunicam via requisições HTTP.
 - Testes Unitários
 - Teste de Integração
 - Teste automatizado
