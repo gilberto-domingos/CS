@@ -16,7 +16,7 @@
 - Facade Pattern -> (Estrutural: Fornece uma interface simplificada para um conjunto complexo de subsistemas, expondo apenas uma API simples para os clientes.
 - Abstract Factory -> (Criacional - fornecer uma interface para criar famílias de objetos relacionados sem especificar suas classes concretas,  uma camada de abstração para a criação de objetos, seguindo o princípio Aberto/Fechado do SOLID.)
 - Observer Pattern -> (Comportamental - define uma dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os seus observadores são notificados automaticamente. Objetivo criar um sistema de notificação automática.)
-- Adapter Pattern
+- Adapter Pattern -> (Estrutural - objetivo é permitir que duas interfaces incompatíveis trabalhem juntas ou exemplo: quando você precisa integrar um sistema legado com um sistema novo.)
 - Builder Pattern
 - S.O.L.I.D
 - Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
