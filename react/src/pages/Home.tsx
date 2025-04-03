@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
 import Buttons from "../shared/components/button/Buttons";
-import { useAppThemeContext } from "../shared/contexts";
+import { useDrawerContext } from "../shared/contexts";
 import "../styles/home.css";
 
 export const Home = () => {
-  const { toggleTheme } = useAppThemeContext();
+  const { toggleDrawerOpen } = useDrawerContext();
 
   return (
     <div className="home-container">
@@ -12,7 +11,7 @@ export const Home = () => {
         <Buttons
           label="Alternar Tema"
           variant="secondary"
-          onClick={toggleTheme}
+          onClick={toggleDrawerOpen}
         />
       </div>
     </div>
