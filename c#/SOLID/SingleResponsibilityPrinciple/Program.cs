@@ -1,9 +1,11 @@
-﻿namespace SingleResponsibilityPrinciple;
-
-class Program
+﻿namespace SingleResponsibilityPrinciple
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            ReportManager manager = new ReportManager();
+            manager.ProcessReport("Relatório de Vendas", "Vendas aumentaram 15% neste mês.");
+        }
     }
 }
