@@ -43,4 +43,5 @@
 - Implementação de temas : 'Light' | 'Dark'
 - Botão alternar temas (Toggle Theme)
 - Menu lateral (side-menu)
+- Drawer responsivo
 
