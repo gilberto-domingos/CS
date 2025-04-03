@@ -1,5 +1,6 @@
 namespace SingleResponsibilityPrinciple
 {
+   // Orquestra o fluxo completo (gera, salva e imprime o relatório).
     public class ReportManager
     {
         private readonly ReportRepository _repository;
