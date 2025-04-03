@@ -20,7 +20,8 @@
 - Builder Pattern -> (Criacional - permite a criação de diferentes representações de um objeto utilizando o mesmo código de construção. Objeto precisa ser criado passo a passo. Objetivo é separar a construção de um objeto complexo de sua representação, usar quando há a necessidade de criar diferentes variações do mesmo objeto sem poluir o código com muitos construtores sobrecarregados.
 
 - S.O.L.I.D
--> (S) Single Responsibility Principle - Cada classe deve ter uma única responsabilidade no sistema, e apenas uma razão para mudar.
+- -> (S) Single Responsibility Principle - Cada classe deve ter uma única responsabilidade no sistema, e apenas uma razão para mudar.
+- -> (O) Open/Closed Principle - As classes devem estar "abertas para extensão, mas fechada para modificação". 
 
 - Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
 - Desenvolvimento API RESTfull princípio (Representational State Transfer) -> cliente (frontend) e o servidor (backend) são separados e se comunicam via requisições HTTP.
