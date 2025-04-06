@@ -23,7 +23,7 @@
 - -> (S) Single Responsibility Principle - Cada classe deve ter uma única responsabilidade no sistema, e apenas uma razão para mudar.
 - -> (O) Open/Closed Principle - As classes devem estar "abertas para extensão, mas fechada para modificação". Novas funcionalidades só através de extensões.
 - -> (L) Liskov Substitution Principle - Objetos de uma classe derivada devem poder substituir objetos de sua classe base sem alterar a funcionalidade do programa. Quando você cria uma subclasse, ela deve manter o contrato da classe base. Confiabiliade polimorfismo seguro.
-- -> (I) Interface Segregation Principle - Nenhum cliente deve ser forçado a depender de métodos que não utiliza. Objetivo é evitar interfaces grandes e genéricas demais, que obrigam as classes a implementarem métodos que não fazem sentido para elas. Dividir grandes interfaces em interfaces menores e mais específicas, conforme a responsabilidade da classe.
+- -> (I) Interface Segregation Principle - Cliente não deve ser forçado a depender de métodos que não utiliza. Objetivo é evitar interfaces grandes e genéricas demais. Dividir em interfaces menores e mais específicas, conforme a responsabilidade da classe.
   
 - Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
 - Desenvolvimento API RESTfull princípio (Representational State Transfer) -> cliente (frontend) e o servidor (backend) são separados e se comunicam via requisições HTTP.
