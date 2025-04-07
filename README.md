@@ -28,12 +28,13 @@
 
 - Testes Unitários
 - -> Testando entidades no DDD - As entidades no DDD são mais do que apenas classes — elas encapsulam comportamento e regras de negócio que precisam ser validadas corretamente.
+- Teste de Integração
+- Teste automatizado
   
 - Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
 - Desenvolvimento API RESTfull princípio (Representational State Transfer) -> cliente (frontend) e o servidor (backend) são separados e se comunicam via requisições HTTP.
-- Testes Unitários
-- Teste de Integração
-- Teste automatizado
+
+
 - JWT(Jason Web Token) - Autenticação e Autorização
 - DDD
 - CQRS
