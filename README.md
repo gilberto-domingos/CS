@@ -24,6 +24,7 @@
 - -> (O) Open/Closed Principle - As classes devem estar "abertas para extensão, mas fechada para modificação". Novas funcionalidades só através de extensões.
 - -> (L) Liskov Substitution Principle - Objetos de uma classe derivada devem poder substituir objetos de sua classe base sem alterar a funcionalidade do programa. Quando você cria uma subclasse, ela deve manter o contrato da classe base. Confiabiliade polimorfismo seguro.
 - -> (I) Interface Segregation Principle - Cliente não deve ser forçado a depender de métodos que não utiliza. Objetivo é evitar interfaces grandes e genéricas demais. Dividir em interfaces menores e mais específicas, conforme a responsabilidade da classe.
+- -> (D) Dependency Inversion Principle - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações. Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações. Objetivo é reduzir o acoplamento entre os módulos do sistema
   
 - Desenvolvimento de API (Application Programming Interface) -> conjunto de regras e definições que permitem que dois sistemas diferentes se comuniquem entre si
 - Desenvolvimento API RESTfull princípio (Representational State Transfer) -> cliente (frontend) e o servidor (backend) são separados e se comunicam via requisições HTTP.
