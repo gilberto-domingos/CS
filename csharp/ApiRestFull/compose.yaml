@@ -1,0 +1,6 @@
+﻿services:
+  sistemavendas:
+    image: sistemavendas
+    build:
+      context: .
+      dockerfile: SistemaVendas/Dockerfile
