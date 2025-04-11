@@ -2,10 +2,10 @@ FROM node:22.14.0
 
 WORKDIR /app
 
-COPY front-react/package.json front-react/package-lock.json ./
+COPY react/package.json react/package-lock.json ./
 RUN npm install
 
-COPY front-react/ ./
+COPY react/ ./
 
 RUN npm run build
 

@@ -22,8 +22,8 @@ services:
   cs.react:
     container_name: cs.react
     build:
-      context: ./front-react
-      dockerfile: Dockerfile.react
+      context: ./react
+      dockerfile: ../Dockerfile.react
     ports:
       - "3000:3000"
     depends_on:

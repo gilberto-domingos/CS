@@ -1,22 +1,24 @@
-FROM mcr.microsoft.com/dotnet/runtime:9.0 AS base
-USER $APP_UID
-WORKDIR /app
-
+# Etapa de build
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
-ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["NetStudy.csproj", "./"]
-RUN dotnet restore "NetStudy.csproj"
+
+# Copia apenas o .csproj primeiro
+COPY ["csharp/ApiRestFull/SistemaVendas/SistemaVendas.csproj", "SistemaVendas/"]
+
+# Restaura dependências
+RUN dotnet restore "SistemaVendas/SistemaVendas.csproj"
+
+# Copia tudo
 COPY . .
-WORKDIR "/src/"
-RUN dotnet build "NetStudy.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "NetStudy.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+# Build do projeto
+WORKDIR /src/csharp/ApiRestFull/SistemaVendas
+RUN dotnet build -c Release -o /app/build
+RUN dotnet publish -c Release -o /app/publish
 
-FROM base AS final
+# Etapa final
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NetStudy.dll"]
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "SistemaVendas.dll"]
 
