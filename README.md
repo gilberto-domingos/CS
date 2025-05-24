@@ -2,7 +2,7 @@
 - Dotnet version 9.0.202 - .NETCore.App 9.0.3 - AspNetCore.App 9.0.3 
 
 - #### Projetos nesse repositório e andamentos : 
-- ApiRestFull .Net -> seguindo o padrão Clean Architecture + POO + Design Pattern + SOLID + AutoMapper + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions + Migrations + RabbitMQ + Docker + automação de issues + workflows, robusta, escalável de fácil manutenção.
+- ApiRestFull .Net -> seguindo o padrão Clean Architecture + POO + Design Pattern + SOLID + AutoMapper + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions + Migrations + RabbitMQ + Docker + workflows, robusta, escalável de fácil manutenção.
 - Laboratorio de Testes - projeto para praticar testes unitários, de cobertura e de integração.
 - Testando entidades no DDD.
 - Teste unitários, XUnit, Fluent Assertions.
@@ -13,10 +13,10 @@
 - Padrões SOLID 
 - ApiRestFull robusta, desacoplada e autocoesão.
 - SWAGGER Swashbuckle.AspNetCore 
-- Docker(containerização) 
+- Docker(containerização). 
 - Expressões Lambadas.
 - Cultura de testes, para aplicações em cenário real.
-- Automação de issue workflows Github.
+- Automação de issue workflows com enumeração de tickets(#00000)
 
 - ### ==> ApiRestFull, princípio (Representational State Transfer) -> Back-end e Servidor são separados e se comunicam via requisições HTTP.
 - Desenvolvimento ApiRestFull (.Net + SqlServer + RabbitMq) e containerização Docker.
