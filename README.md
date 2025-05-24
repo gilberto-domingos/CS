@@ -16,7 +16,7 @@
 - Docker(containerização). 
 - Expressões Lambadas.
 - Cultura de testes, para aplicações em cenário real.
-- Automação de issue workflows com enumeração de tickets(#00000)
+- Automação de issues workflows com enumeração de tickets(#00000)
 
 - ### ==> ApiRestFull, princípio (Representational State Transfer) -> Back-end e Servidor são separados e se comunicam via requisições HTTP.
 - Desenvolvimento ApiRestFull (.Net + SqlServer + RabbitMq) e containerização Docker.
