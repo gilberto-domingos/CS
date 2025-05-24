@@ -20,9 +20,9 @@
 
 - #### Descrições :
 
-- ### ==> ApiRestFull, princípio (Representational State Transfer) -> Front-end, Back-end e Servidor são separados e se comunicam via requisições HTTP.
+- ### ==> ApiRestFull, princípio (Representational State Transfer) -> Back-end e Servidor são separados e se comunicam via requisições HTTP.
 - Desenvolvimento ApiRestFull (.Net + SqlServer + RabbitMq) e containerização Docker.
-- Organização de estrutura -> Entities, Dtos, Interfaces, Services, Controllers, Repositories, Data, Configurations, Commands, Queries, Handlers, Exceptions, Filters, Middlewares, AutoMapper, Migrations.
+- #### Organização de estrutura -> Entities, Dtos, Interfaces, Services, Controllers, Repositories, Data, Configurations, Commands, Queries, Handlers, Exceptions, Filters, Middlewares, AutoMapper, Migrations.
 - Configuração do Banco de dados(SqlServer) + EF Core + Migrations - InitialCreate. 
 - SWAGGER - Configuração e teste de end-points na web envio requisições HTTP (GET, POST, PUT, DELETE). 
 - CRUD-Create,Read,Update,Delete, Injeção de dependência(ILogger,RequestDelegate) padrões ASP.NET Core.
