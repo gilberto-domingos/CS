@@ -2,7 +2,7 @@
 - Dotnet version 9.0.202 - .NETCore.App 9.0.3 - AspNetCore.App 9.0.3 
 
 - #### Projetos nesse repositório e andamentos : 
-- ApiRestFull .Net -> seguindo o padrão Clean Architecture + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions, Migrations + POO + SOLID + Docker, robusta, escalável e fácil manutenção.
+- ApiRestFull .Net -> seguindo o padrão Clean Architecture + POO + Design Pattern + SOLID + AutoMapper + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions + Migrations + RabbitMQ + Docker +, robusta, escalável e fácil manutenção.
 - Laboratorio de Testes - projeto para praticar testes unitários, de cobertura e de integração.
 - Testando entidades no DDD.
 - Teste unitários, XUnit, Fluent Assertions.
@@ -21,8 +21,8 @@
 - #### Descrições :
 
 - ### ==> ApiRestFull, princípio (Representational State Transfer) -> Front-end, Back-end e Servidor são separados e se comunicam via requisições HTTP.
-- Desenvolvimento ApiRestFull (.Net + React + SqlServer + RabbitMq) e containerização Docker.
-- Organização de estrutura -> Models, Interfaces, Services, Controllers, DTOs, Data, DbContext, etc.
+- Desenvolvimento ApiRestFull (.Net + SqlServer + RabbitMq) e containerização Docker.
+- Organização de estrutura -> Entities, Dtos, Interfaces, Services, Controllers, Repositories, Data, Configurations, Commands, Queries, Handlers, Exceptions, Filters, Middlewares, AutoMapper, Migrations.
 - Configuração do Banco de dados(SqlServer) + EF Core + Migrations - InitialCreate. 
 - SWAGGER - Configuração e teste de end-points na web envio requisições HTTP (GET, POST, PUT, DELETE). 
 - CRUD-Create,Read,Update,Delete, Injeção de dependência(ILogger,RequestDelegate) padrões ASP.NET Core.
