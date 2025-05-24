@@ -2,7 +2,7 @@
 - Dotnet version 9.0.202 - .NETCore.App 9.0.3 - AspNetCore.App 9.0.3 
 
 - #### Projetos nesse repositório e andamentos : 
-- ApiRestFull .Net -> seguindo o padrão Clean Architecture + POO + Design Pattern + SOLID + AutoMapper + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions + Migrations + RabbitMQ + Docker +, robusta, escalável e fácil manutenção.
+- ApiRestFull .Net -> seguindo o padrão Clean Architecture + POO + Design Pattern + SOLID + AutoMapper + MediatR + CQRS + ActionFilter + Middleware + Handlers + Exceptions + Migrations + RabbitMQ + Docker + automação de issues + workflows, robusta, escalável de fácil manutenção.
 - Laboratorio de Testes - projeto para praticar testes unitários, de cobertura e de integração.
 - Testando entidades no DDD.
 - Teste unitários, XUnit, Fluent Assertions.
@@ -13,16 +13,15 @@
 - Padrões SOLID 
 - ApiRestFull robusta, desacoplada e autocoesão.
 - SWAGGER Swashbuckle.AspNetCore 
-- Docker(containers/comunicação entre containers) e RabbitMq(Message Broker) e Microserviços.
-- Uso de Expressões Lambadas.
+- Docker(containerização) 
+- Expressões Lambadas.
 - Cultura de testes, para aplicações em cenário real.
 - Automação de issue workflows Github.
 
-- #### Descrições :
-
 - ### ==> ApiRestFull, princípio (Representational State Transfer) -> Back-end e Servidor são separados e se comunicam via requisições HTTP.
 - Desenvolvimento ApiRestFull (.Net + SqlServer + RabbitMq) e containerização Docker.
-- #### Organização de estrutura -> Entities, Dtos, Interfaces, Services, Controllers, Repositories, Data, Configurations, Commands, Queries, Handlers, Exceptions, Filters, Middlewares, AutoMapper, Migrations.
+
+- #### Descrições :
 - Configuração do Banco de dados(SqlServer) + EF Core + Migrations - InitialCreate. 
 - SWAGGER - Configuração e teste de end-points na web envio requisições HTTP (GET, POST, PUT, DELETE). 
 - CRUD-Create,Read,Update,Delete, Injeção de dependência(ILogger,RequestDelegate) padrões ASP.NET Core.
@@ -31,6 +30,7 @@
 - Action Filter - ApiResponseEnvelopeFilter, Padrão global de resposta.
 - MediatR (MediatR Pattern), Commands, Handlers e Queries.
 - CQRS (Command Query Responsibility Segregation).
+- AutoMapper - Mapeamento de objetos entre as camadas.
 - Dockerfiles, docker-compose.yml,configuração dos containers, conexão e comunicação entre os containers.
 - Configuração de .env (variáveis de ambiente) - Portas, connection strings, secrets, etc.
 
